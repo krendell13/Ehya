@@ -1,0 +1,58 @@
+@media (min-width: 1200px)
+  .navbar
+    &-top
+@media (max-width: 1200px)
+  .container
+    max-width: 960px
+  .navbar
+    &__rating
+      padding-left: 180px
+  .main
+    &-left
+      max-width: 500px
+
+@media (max-width: 992px)
+  .container
+    max-width: 700px
+  .navbar
+    &-top
+      &__menu
+        &-button
+          display: block
+    &__rating
+      display: none
+    &__button
+      display: none
+  .menu
+    &-button
+      display: flex
+      width: 22px
+      height: 18px
+      padding: 0
+      align-items: center
+      justify-content: space-between
+      flex-direction: column
+      border: 0
+      background-color: #fff
+      cursor: pointer
+      &__line
+        width: 22px
+        height: 2px
+        background-color: #3A4C66
+        border-radius: 5px
+  .main
+    &-right
+      display: none
+@media (max-width: 768px)
+  .container
+    max-width: 576px
+    width: 92%
+@media (max-width: 576px)
+  .main
+    &-left
+      text-align: center
+      margin: auto
+@media (max-width: 530px)
+  .main
+    &-left
+      &__buttons
