@@ -26,8 +26,10 @@ img {
 }
 
 .navbar {
+  width: 100%;
   padding-top: 37px;
   padding-bottom: 37px;
+  background-color: #fff;
 }
 
 .navbar-top {
@@ -204,6 +206,9 @@ img {
   .container {
     max-width: 700px;
   }
+  .navbar {
+    position: fixed;
+  }
   .navbar-top__menu-button {
     display: block;
   }
@@ -243,6 +248,9 @@ img {
   .main-right {
     display: none;
   }
+  .main-left {
+    padding-top: 136px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -256,6 +264,83 @@ img {
   .main-left {
     text-align: center;
     margin: auto;
+  }
+}
+
+@media (max-width: 530px) {
+  .main-left__buttons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main-left__buy {
+    margin-right: 0;
+    padding-right: 49px;
+    padding-left: 49px;
+  }
+}
+
+@media (max-width: 320px) {
+  .navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .navbar-top {
+    padding-top: 17px;
+    padding-bottom: 18px;
+  }
+  .container {
+    max-width: 280px;
+    margin: auto;
+  }
+  .main {
+    padding-top: 36px;
+  }
+  .main-left__title {
+    margin-bottom: 22px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.2px;
+  }
+  .main-left__subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main-left__description {
+    margin-top: 33px;
+    margin-bottom: 17px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+  }
+  .main-left__buttons {
+    gap: 15px;
+  }
+  .main-left__buy {
+    margin-right: 0;
+    padding-top: 11px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .main-left__demo {
+    padding-top: 9px;
+    padding-bottom: 5px;
+    padding-right: 28px;
+    padding-left: 28px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
   }
 }
 /*# sourceMappingURL=style.css.map */
