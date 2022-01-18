@@ -25,6 +25,32 @@ img {
   color: #1565D8;
 }
 
+.main-left__buy:hover {
+  background-color: #0E50AF;
+}
+
+.main-left__demo:hover {
+  background: #fff;
+  color: #0E50AF;
+  border: 2px solid #0E50AF;
+}
+
+.category-book__best-book:hover {
+  color: #0E50AF;
+}
+
+.category-book__best-button:hover {
+  background: #FAAD13;
+}
+
+.category-book__more:hover {
+  color: #0E50AF;
+}
+
+.category-book__booking-button:hover {
+  background: #FAAD13;
+}
+
 .navbar {
   width: 100%;
   padding-top: 37px;
@@ -96,7 +122,7 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-top: 69px;
+  padding-top: 33px;
 }
 
 .main-left {
@@ -151,12 +177,11 @@ img {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 15px;
+  gap: 23px;
 }
 
 .main-left__buy {
   padding: 18px 38px;
-  margin-right: 26px;
   background: #1565D8;
   border-radius: 8px;
   color: #fff;
@@ -190,6 +215,278 @@ img {
   z-index: 0;
 }
 
+.category-book {
+  margin-top: 79px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.category-book__title {
+  margin: 0;
+  margin-bottom: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+  color: #183B56;
+}
+
+.category-book__req {
+  max-width: 751px;
+}
+
+.category-book__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-right: 3px;
+  gap: 32px;
+}
+
+.category-book__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 358px;
+  border: 1px solid #ECEEF2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  padding: 10px 16px 10px 11px;
+}
+
+.category-book__image {
+  width: 160px;
+  height: 238px;
+  border-radius: 8px;
+  margin-right: 19px;
+}
+
+.category-book__more {
+  width: 100%;
+  max-width: 751px;
+  padding-top: 25px;
+  padding-bottom: 27px;
+  margin-top: 27px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  background: #E8F0FC;
+  border-radius: 8px;
+  border: none;
+  color: #1565D8;
+}
+
+.category-book__booking-title {
+  margin: 0;
+  margin-top: 13px;
+  margin-bottom: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: #183B56;
+}
+
+.category-book__booking-description {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #183B56;
+}
+
+.category-book__booking-price {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #1565D8;
+}
+
+.category-book__booking-button {
+  padding: 7px 20px;
+  border: 1px solid #ECEEF2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-style: normal;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  background: #183B56;
+  color: #fff;
+  border-radius: 2000px;
+}
+
+.category-book__booking-elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 13px;
+  gap: 20px;
+}
+
+.category-book__best {
+  max-width: 360px;
+  background: #F8F9FA;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.category-book__best-image {
+  border-radius: 8px;
+  margin-right: 26px;
+}
+
+.category-book__best-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 36px;
+}
+
+.category-book__best-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 8px;
+}
+
+.category-book__best-name {
+  margin: 0;
+  margin-bottom: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: #183B56;
+}
+
+.category-book__best-price {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #1565D8;
+}
+
+.category-book__best-button {
+  max-width: 101px;
+  margin-top: 22px;
+  padding: 7px 10px;
+  border: 1px solid #ECEEF2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-style: normal;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  background: #183B56;
+  color: #fff;
+  border-radius: 2000px;
+}
+
+.category-book__best-line {
+  margin: 0;
+  margin-top: -10px;
+  margin-bottom: 25px;
+  background-color: #D8D8D8;
+  border: 1px solid #ECEEF2;
+}
+
+.category-book__best-link {
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: #1565D8;
+}
+
+.category-book__best-book {
+  margin: 0;
+  cursor: pointer;
+}
+
+.after-category__line {
+  margin-top: 79px;
+  margin-bottom: 60px;
+  background-color: #D8D8D8;
+  border: 1px solid #ECEEF2;
+}
+
+@media (min-width: 1200px) {
+  .category-book__best-book {
+    cursor: pointer;
+  }
+  .category-book__best-button {
+    cursor: pointer;
+  }
+  .category-book__more {
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .category-book__booking-button {
+    cursor: pointer;
+  }
+  .category-book__booking-image {
+    cursor: pointer;
+  }
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
@@ -200,17 +497,64 @@ img {
   .main-left {
     max-width: 500px;
   }
+  .category-book {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .category-book__more {
+    text-transform: uppercase;
+  }
+  .category-book__title {
+    text-align: center;
+  }
+  .category-book__top {
+    margin-top: 56px;
+  }
+  .category-book__best {
+    max-width: 100%;
+  }
+  .category-book__best-name {
+    margin-bottom: 12px;
+  }
+  .category-book__best-button {
+    margin-top: 14px;
+  }
+  .category-book__best-content {
+    max-width: 200px;
+  }
+  .category__best-book {
+    cursor: pointer;
+  }
+  .category__best-book-button {
+    cursor: pointer;
+  }
+  .category__best__more {
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .category__best__booking-button {
+    cursor: pointer;
+  }
+  .category__best__booking-image {
+    cursor: pointer;
+  }
 }
 
 @media (max-width: 992px) {
   .container {
-    max-width: 700px;
+    max-width: 800px;
   }
   .navbar {
     position: fixed;
   }
   .navbar-top__menu-button {
     display: block;
+    cursor: default;
   }
   .navbar__rating {
     display: none;
@@ -251,12 +595,118 @@ img {
   .main-left {
     padding-top: 136px;
   }
+  .main-left__buy {
+    cursor: default;
+  }
+  .main-left__demo {
+    cursor: default;
+  }
+  .category-book {
+    cursor: default;
+  }
+  .category-book__items {
+    margin-right: 0;
+  }
+  .category-book__req {
+    max-width: 900px;
+  }
+  .category-book__more {
+    max-width: 800px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .category-book__booking-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .category-book__booking-description {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .category-book__booking-price {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
 
 @media (max-width: 768px) {
   .container {
     max-width: 576px;
     width: 92%;
+  }
+  .category-book__best-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .category-book__best-name-price {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .category-book__best-name-book {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .category-book__title {
+    font-size: 28px;
+  }
+  .category-book__items {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .category-book__item {
+    display: block;
+    margin-top: 36px;
+    max-width: 280px;
+    text-align: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    gap: 10px;
+  }
+  .category-book__item-unvisible {
+    display: none;
+  }
+  .category-book__image {
+    margin-right: 0;
+    margin-top: -50px;
+  }
+  .category-book__booking-title {
+    margin-top: 13px;
+    margin-bottom: 16px;
+  }
+  .category-book__booking-elements {
+    display: block;
+  }
+  .category-book__booking-button {
+    margin-right: 15px;
+  }
+  .category-book__booking-image {
+    margin-top: 5px;
+  }
+  .category-book__more {
+    margin-top: 24px;
+    padding: 14px 61px;
+    text-transform: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
   }
 }
 

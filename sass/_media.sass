@@ -1,6 +1,21 @@
 @media (min-width: 1200px)
   .navbar
     &-top
+  .category
+    &-book
+      &__best
+        &-book
+          cursor: pointer
+        &-button
+          cursor: pointer
+      &__more
+        text-transform: uppercase
+        cursor: pointer
+      &__booking
+        &-button
+          cursor: pointer
+        &-image
+          cursor: pointer
 @media (max-width: 1200px)
   .container
     max-width: 960px
@@ -10,16 +25,49 @@
   .main
     &-left
       max-width: 500px
+  .category
+    &-book
+      flex-direction: column
+      align-items: center
+      &__more
+        text-transform: uppercase
+      &__title
+        text-align: center
+      &__top
+        margin-top: 56px
+
+      &__best
+        max-width: 100%
+        &-name
+          margin-bottom: 12px
+        &-button
+          margin-top: 14px
+        &-content
+          max-width: 200px
+    &__best
+      &-book
+        cursor: pointer
+        &-button
+          cursor: pointer
+      &__more
+        text-transform: uppercase
+        cursor: pointer
+      &__booking
+        &-button
+          cursor: pointer
+        &-image
+          cursor: pointer
 
 @media (max-width: 992px)
   .container
-    max-width: 700px
+    max-width: 800px
   .navbar
     position: fixed
     &-top
       &__menu
         &-button
           display: block
+          cursor: default
     &__rating
       display: none
     &__button
@@ -46,10 +94,97 @@
       display: none
     &-left
       padding-top: 136px
+      &__buy
+        cursor: default
+      &__demo
+        cursor: default
+  .category
+    &-book
+      cursor: default
+      &__items
+        margin-right: 0
+      &__req
+        max-width: 900px
+      &__more
+        max-width: 800px
+        font-style: normal
+        font-weight: bold
+        font-size: 16px
+        line-height: 20px
+      &__booking
+        &-title
+          font-weight: 500
+          font-size: 20px
+          line-height: 24px
+        &-description
+          font-weight: normal
+          font-size: 14px
+          line-height: 20px
+        &-price
+          font-style: normal
+          font-weight: bold
+          font-size: 16px
+          line-height: 20px
+
 @media (max-width: 768px)
   .container
     max-width: 576px
     width: 92%
+  .category
+    &-book
+      &__best
+        &-name
+          font-style: normal
+          font-weight: bold
+          font-size: 16px
+          line-height: 24px
+          &-price
+            font-style: normal
+            font-weight: bold
+            font-size: 20px
+            line-height: 24px
+          &-book
+            font-style: normal
+            font-weight: bold
+            font-size: 16px
+            line-height: 20px
+      &__title
+        font-size: 28px
+      &__items
+        justify-content: center
+      &__item
+        display: block
+        margin-top: 36px
+        max-width: 280px
+        text-align: center
+        flex-wrap: wrap
+        justify-content: flex-start
+        gap: 10px
+        &-unvisible
+          display: none
+      &__image
+        margin-right: 0
+        margin-top: -50px
+      &__booking
+        &-title
+          margin-top: 13px
+          margin-bottom: 16px
+        &-elements
+          display: block
+        &-button
+          margin-right: 15px
+        &-image
+          margin-top: 5px
+      &__more
+        margin-top: 24px
+        padding: 14px 61px
+        text-transform: none
+        font-family: 'Roboto Condensed', sans-serif
+        font-style: normal
+        font-weight: bold
+        font-size: 16px
+        line-height: 20px
+
 @media (max-width: 576px)
   .main
     &-left
