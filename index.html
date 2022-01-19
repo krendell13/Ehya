@@ -7,6 +7,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Open+Sans:wght@400;600;700&family=Roboto+Condensed:wght@700&family=Roboto:wght@500&display=swap"
     rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
   <link rel="stylesheet" href="css/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
@@ -223,15 +224,63 @@
 
     <hr class="after-category__line">
     
-    <!-- Slider main container -->
+    </div>
+    <!-- ./container -->
+
+    <!-- Slider rцeq container -->
     <div class="swiper req-slider req__slider">
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
         <!-- Slides -->
-        <div class="swiper-slide req-slider__item">Slide 1</div>
-        <div class="swiper-slide req-slider__item">Slide 2</div>
-        <div class="swiper-slide req-slider__item">Slide 3</div>
-        <div class="swiper-slide req-slider__item">Slide 4</div>
+        <div class="swiper-slide req-slider__item">
+          <div class="req-slider req-slider__container">
+            <div class="req-slider__contain">
+              <img src="img/IconBusiness.png" alt="Icon: Business" class="req-slider__contain-image">
+              <h3 class="req-slider__contain-title">Бизнес & Финансы</h3>
+              <span class="req-slider__contain-subtitle">Книги про мир бизнеса</span>
+            </div>
+            <div class="req-slider__contain">
+              <img src="img/IconMotivation.png" alt="Icon: Motivation" class="req-slider__contain-image">
+              <h3 class="req-slider__contain-title">Самомотиватия</h3>
+              <span class="req-slider__contain-subtitle">Книги о мотивации</span>
+            </div>
+            <div class="req-slider__contain">
+              <img src="img/Romanse.png" alt="Icon: Romanse" class="req-slider__contain-image">
+              <h3 class="req-slider__contain-title">Романы Теленовеллы</h3>
+              <span class="req-slider__contain-subtitle">Книги с крутыми историями</span>
+            </div>
+            <div class="req-slider__contain">
+              <img src="img/IconFuture.png" alt="Icon: Future" class="req-slider__contain-image">
+              <h3 class="req-slider__contain-title">Навыки будущего</h3>
+              <span class="req-slider__contain-subtitle">Книги для самоподготовки </span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide req-slider__item">
+          <div class="req-slider req-slider__container">
+            <div class="req-slider__contain">
+              <img src="img/IconMotivation.png" alt="Icon: Motivation" class="req-slider__contain-image">
+              <h3 class="req-slider__contain-title">Самомотиватия</h3>
+              <span class="req-slider__contain-subtitle">Книги о мотивации</span>
+            </div>
+            <div class="req-slider__contain">
+              <img src="img/IconBusiness.png" alt="Icon: Business" class="req-slider__contain-image">
+              <h3 class="req-slider__contain-title">Бизнес & Финансы</h3>
+              <span class="req-slider__contain-subtitle">Книги про мир бизнеса</span>
+            </div>
+            <div class="req-slider__contain">
+              <img src="img/IconFuture.png" alt="Icon: Future" class="req-slider__contain-image">
+              <h3 class="req-slider__contain-title">Навыки будущего</h3>
+              <span class="req-slider__contain-subtitle">Книги для самоподготовки </span>
+            </div>
+            <div class="req-slider__contain">
+              <img src="img/Romanse.png" alt="Icon: Romanse" class="req-slider__contain-image">
+              <h3 class="req-slider__contain-title">Романы Теленовеллы</h3>
+              <span class="req-slider__contain-subtitle">Книги с крутыми историями</span>
+            </div>
+            
+          </div>
+        </div>
       </div>
 
       <!-- If we need navigation buttons -->
@@ -240,8 +289,124 @@
 
     </div>
     
+    <div class="swiper unrel-slider unrel__slider">
+    
+      <div class="unrel-slider__container">
+        <h3 class="unrel">
+          Неизданные книги
+        </h3>
+      </div>
+      <div class="swiper-wrapper swiper-container">
+        <div class="swiper-slide unrel-slider__item">
+          <img src="img/Unreal-book-1.jpg" alt="Icon: Book-1" class="unrel-slider__image">
+          <img src="img/Unreal-book-2.jpg" alt="Icon: Book-2" class="unrel-slider__image">
+          <img src="img/Unreal-book-3.jpg" alt="Icon: Book-3" class="unrel-slider__image">
+          <img src="img/Unreal-book-4.jpg" alt="Icon: book-4" class="unrel-slider__image">
+          <img src="img/Unreal-book-5.jpg" alt="Icon: Book-5" class="unrel-slider__image">
+        </div>
+    
+        <div class="swiper-slide unrel-slider__item">
+          <img src="img/Unreal-book-3.jpg" alt="" class="unrel-slider__image">
+          <img src="img/Unreal-book-5.jpg" alt="" class="unrel-slider__image">
+          <img src="img/Unreal-book-4.jpg" alt="" class="unrel-slider__image">
+          <img src="img/Unreal-book-1.jpg" alt="" class="unrel-slider__image">
+          <img src="img/Unreal-book-2.jpg" alt="" class="unrel-slider__image">
+        </div>
+    
+      </div>
+      <button class="unrel-slider__button unrel-slider__button--prev"></button>
+      <button class="unrel-slider__button unrel-slider__button--next"></button>
     </div>
-    <!-- ./container -->
+    
+    <div class="container history-author">
+      <div class="history-top">
+        <h2 class="history-top__title">История Автора</h2>
+        <span class="history-top__text">Это раздел авторского рассказа. Каждую неделю мы стараемся рассказать вам историю
+          писателя. Расскажем всем
+          о закулисье их книг.</span>
+      </div>
+      <!-- /.history-top -->
+      <div class="history-middle">
+
+      </div>
+      <!-- /.history-middle -->
+      <div class="history-down"></div>
+      <!-- /.history-down -->
+    
+    </div>
+  
+    <div class="partners">
+      <div class="container">
+        <h3 class="partners-title">Некоторые из издателей, с которыми мы сотрудничали
+</h3>
+        <div class="partners-list">
+          <img src="img/partners/Item-1.svg" alt="Logo: Item-1" class="partner">
+          <img src="img/partners/Item-2.svg" alt="Logo: Item-2" class="partner">
+          <img src="img/partners/Item-3.svg" alt="Logo: Item-3" class="partner">
+          <img src="img/partners/Item-4.svg" alt="Logo: Item-4" class="partner">
+          <img src="img/partners/Item-5.svg" alt="Logo: Item-5" class="partner">
+          <img src="img/partners/Item-6.svg" alt="Logo: Item-6" class="partner">
+          <img src="img/partners/Item-7.svg" alt="Logo: Item-7" class="partner">
+          <img src="img/partners/Item-8.svg" alt="Logo: Item-8" class="partner">
+          <img src="img/partners/Item-9.svg" alt="Logo: Item-9" class="partner">
+          <img src="img/partners/Item-10.svg" alt="Logo: Item-10" class="partner">
+          <img src="img/partners/Item-11.svg" alt="Logo: Item-11" class="partner">
+          <img src="img/partners/Item-12.svg" alt="Logo: Item-12" class="partner">
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="blog">
+      <div class="blog-top">
+        <h2 class="blog-top__title">Ehya Блог</h2> 
+          <button class="blog-top__button">
+            <a href="#" class="blog-top__button-link">Все Блоги</a>
+          </button>
+      </div>
+      <!--/.blog-top-->
+      <div class="blog-down">
+        <div class="blog-down__left">
+          <img src="img/blog-image-left.jpg" alt="Blog: image-left" class="blog-down__left-image">
+          <h3 class="blog-down__left-title">Success Steps For Your Business Life</h3>
+          <span class="blog-down__left-description">This is the author story section. Every week we try to give you the&nbsp;story of book writer. Tell all of you the behind the
+          scene of their books.</span>
+        </div>
+        
+        <div class="blog-down__right">
+          <div class="blog-down__right-item">
+          <img src="img/blog-image.jpg" alt="Blog Image-1" class="blog-down__right-image">
+          <div class="blog-down__right-image description-blog">
+              <span class="description-blog__date">23 МАРТА 2020</span>
+              <h5 class="description-blog__title">29 Motivational Quotes
+              for&nbsp;Work Environments</h5>
+              <a href="#" class="description-blog__read">Читать</a>
+          </div>
+        </div>
+        <div class="blog-down__right-item">
+          <img src="img/blog-image-2.jpg" alt="Blog Image-2" class="blog-down__right-image">
+          <div class="blog-down__right-image description-blog">
+            <span class="description-blog__date">28 МАРТА 2020</span>
+            <h5 class="description-blog__title">Learn To Love Growth
+            and&nbsp;You Will Be A Success</h5>
+            <a href="#" class="description-blog__read">Читать</a>
+          </div>
+        </div>
+        <div class="blog-down__right-item">
+          <img src="img/blog-image-3.jpg" alt="Blog Image-3" class="blog-down__right-image">
+          <div class="blog-down__right-image description-blog">
+            <span class="description-blog__date">28 МАРТА 2020</span>
+            <h5 class="description-blog__title">Motivation How To Build
+            Trust at your Work</h5>
+            <a href="#" class="description-blog__read">Читать</a>
+          </div>
+        </div>
+      </div>
+      </div>
+      <!--/.blog-down-->
+      </div>
+    </div>
+  <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/jquery-3.6.0.min.js"></script>
   <script src="js/swiper-bundle.min.js"></script>
   <script src="js/main.js"></script>

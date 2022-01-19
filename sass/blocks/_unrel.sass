@@ -1,0 +1,50 @@
+.unrel
+  margin-top: 65px
+  margin-bottom: 60px
+  font-family: 'Roboto Condensed' , sans-serif
+  font-style: normal
+  font-weight: bold
+  font-size: 36px
+  line-height: 48px
+  letter-spacing: 0.2px
+  color: #fff
+  &-slider
+    background: #183B56
+    padding-bottom: 80px
+    &__button
+      position: absolute
+      top: 0
+      width: 54px
+      height: 56px
+      border: 2px solid #5A7184
+      box-sizing: border-box
+      border-radius: 2000px
+      background: #183B56
+      background-repeat: no-repeat
+      background-position: center
+      &--prev
+        top: 61px
+        right: 230px
+        background-image: url(../img/arrow-left.svg)
+      &--next
+        top: 61px
+        right: 150px
+        background-image: url(../img/arrow-right.svg)
+    &__container
+      max-width: 1140px
+      margin: auto
+    &__item
+      display: flex
+      align-items: center
+      justify-content: flex-start
+      gap: 32px
+
+    &__image
+      width: 202px
+      height: 298px
+      object-fit: cover
+      border-radius: 8px
+.swiper
+  &-container
+    max-width: 1140px
+    margin: auto

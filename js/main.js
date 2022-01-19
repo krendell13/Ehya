@@ -19,4 +19,27 @@ const reqSlider = new Swiper('.req-slider', {
   },
 
 });
+
+$(document).ready(function () {
+const unrelSlider = new Swiper('.unrel-slider', {
+  // Optional parameters
+  loop: true,
+
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.unrel-slider__button--next',
+    prevEl: '.unrel-slider__button--prev',
+  },
+
+  
+
+  //Keyboard Navigation
+   keyboard: {
+    enabled: true,
+    onlyInViewport: false,
+  },
+
+});
+});
 });
