@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACG,AAAD,YAAK,CAAC;EACJ,MAAM,EAAE,IAAI;EACZ,SAAS,EAAE,MAAM;CAAG",
+    "sources": [
+        "../sass/blocks/history.sass"
+    ],
+    "names": [],
+    "file": "history.css"
+}
