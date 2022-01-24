@@ -1,4 +1,4 @@
-@media (min-width: 1200px)
+@media (max-width: 992px)
   .navbar
     &-top
   .category
@@ -16,6 +16,40 @@
           cursor: pointer
         &-image
           cursor: pointer
+.navbar
+  &__button
+    &:hover
+      background-color: $primary
+      color: $light
+  &__link
+    &:hover
+      color: $primary
+.main
+  &-left
+    &__buy
+      &:hover
+        background-color: #0E50AF
+    &__demo
+      &:hover
+        background: $light
+        color: #0E50AF
+        border: 2px solid #0E50AF
+.category
+  &-book
+    &__best
+      &-book
+        &:hover
+          color: #0E50AF
+      &-button
+        &:hover
+          background: #FAAD13
+    &__more
+      &:hover
+        color: #0E50AF
+    &__booking
+      &-button
+        &:hover
+          background: #FAAD13
 @media (max-width: 1200px)
   .container
     max-width: 960px
@@ -71,9 +105,10 @@
           right: 8.5%
         &--prev
           left: 8.5%
+
 @media (max-width: 992px)
   .container
-    max-width: 800px
+    max-width: 700px
   .navbar
     position: fixed
     &-top
@@ -103,10 +138,14 @@
         background-color: #3A4C66
         border-radius: 5px
   .main
-    &-right
-      display: none
+    flex-wrap: wrap
+    justify-content: center
+    gap: 92px
     &-left
       padding-top: 136px
+      text-align: center
+      &__buttons
+        justify-content: center
       &__buy
         cursor: default
       &__demo
@@ -206,12 +245,21 @@
 @media (max-width: 530px)
   .main
     &-left
+      padding-top: 0
+      max-width: 370px
+      &__title
+        font-size: 40px
+        line-height: 40px
+        margin-bottom: 30px
+        padding-top: 80px
       &__buttons
         flex-direction: column
       &__buy
         margin-right: 0
         padding-right: 49px
         padding-left: 49px
+    &-right
+      padding: 59px 68px
 @media (max-width: 320px)
   .navbar
     padding-top: 0
@@ -224,8 +272,10 @@
     margin: auto
   .main
     padding-top: 36px
+    gap: 34px
     &-left
       &__title
+        padding-top: 65px
         margin-bottom: 22px
         font-style: normal
         font-weight: bold
@@ -249,7 +299,7 @@
   .main
     &-left
       &__buttons
-        gap: 15px
+        gap: 12px
       &__buy
         margin-right: 0
         padding-top: 11px
