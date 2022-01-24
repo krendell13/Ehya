@@ -1,13 +1,13 @@
 .req
   &-slider
-    position: relative
     margin-bottom: 100px
+    position: relative
     &__container
       max-width: 1140px
       margin: auto
     &__button
       position: absolute
-      top: 90px
+      top: 38%
       width: 56px
       height: 56px
       border-radius: 50%
@@ -18,23 +18,29 @@
       background-position: center
       z-index: 10
       &--next
-        right: 120px
+        right: 8.5%
         background-image: url(../img/arrow-next.svg)
       &--prev
-        left: 120px
+        left: 8.5%
         background-image: url(../img/arrow-prev.svg)
     &__container
       display: flex
       align-items: center
-      justify-content: space-between
+      gap: 26px
     &__contain
+      width: 265px
+      height: 240px
       display: flex
       align-items: center
       flex-direction: column
-      padding: 40px 34px 30px 35px
+      padding-top: 40px
+      padding-bottom: 30px
       border: 1px solid #ECEEF2
       border-radius: 8px
       &-title
+        margin: 0
+        margin-top: 40px
+        margin-bottom: 12px
         font-family: 'Roboto' , sans-serif
         font-style: normal
         font-weight: 500
